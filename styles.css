@@ -124,12 +124,169 @@ h1 {
 
 .skills-list li {
     background-color: #2a2a2a;
-    padding: 12px 15px;
+    padding: 12px 150px;
     margin-bottom: 10px;
     border-left: 5px solid #ff9800;
     border-radius: 4px;
     text-align: left;
 }
+/* Contact Section Styling */
+
+#contact h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+#contact p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ff9800;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: #121212;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68900;
+    color: #fff;
+}
+
+.contact-info {
+    text-align: center;
+    color: #ccc;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff9800;
+}
+
+.contact-info p,
+.contact-info a {
+    font-size: 16px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+
+/* Projects Section Styling */
+#projects {
+    background-color: #121212;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #projects h1 {
+    font-size: 36px;
+    color: #ff9800;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 152, 0, 0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
+
 
 /* Footer Styling */ 
 footer { 
